@@ -1,0 +1,6 @@
+@Mission11_Harris_HostAddress = http://localhost:5167
+
+GET {{Mission11_Harris_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
