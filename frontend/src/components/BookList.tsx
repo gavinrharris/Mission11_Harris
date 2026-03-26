@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { Book, BooksResponse } from '../types/Book';
 
-const API_URL = 'https://localhost:7102/api/books';
+const API_URL = 'http://localhost:5167/api/books';
 
 function BookList() {
   const [books, setBooks] = useState<Book[]>([]);
